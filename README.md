@@ -1,4 +1,4 @@
-# ![logo](./media/rhino-wide.png)
+<img src="https://github.com/rhiokim/large-scale-frontend/raw/master/media/rhino-wide.png" width="60%" />
 
 ## Purpose
 
