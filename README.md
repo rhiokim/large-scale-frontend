@@ -1,4 +1,4 @@
-# large*scale*frontend
+# ![logo](./media/rhino-wide.png)
 
 ## Purpose
 
