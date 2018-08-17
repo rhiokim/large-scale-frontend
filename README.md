@@ -1,4 +1,4 @@
-<img src="https://github.com/rhiokim/large-scale-frontend/raw/master/media/rhino-wide.png" width="60%" />
+<img src="https://github.com/rhiokim/large-scale-frontend/raw/master/media/rhino-wide.png" width="50%" />
 
 ## Purpose
 
@@ -8,10 +8,13 @@
 
 * Git
   * Commit Message Convention
-    * Angular
+    * 😀 [Angular Team Guidelines](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit)
+    > This guide is quite awesome when you wirte any kind of open source libraries
+    * 😊 [Erlang - Writing good commit message](https://github.com/erlang/otp/wiki/Writing-good-commit-messages)
+    > And this is also good option
 * CI
 * CD
-* 버젼
+* Versioning
 
 ### Application Architecture
 
@@ -65,10 +68,24 @@
   * component
   * pattern
   * template
+* Component Design
 
 #### CSS
 
 ### DDD
+
+### Etc
+
+* SoC
+* Modularization
+  * Common Regular Expression
+    * Email
+    * Name
+    * Phone
+    * Number Format
+    * Time
+    * Date
+    * Zip Code
 
 ## Contribute
 
