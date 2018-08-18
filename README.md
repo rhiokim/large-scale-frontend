@@ -1,8 +1,10 @@
 <img src="https://github.com/rhiokim/large-scale-frontend/raw/master/media/rhino-wide.png" width="50%" />
 
+```
 Development
  \_ Manage source code and local dev automation
  \_ Focus on code without additional work
+```
 
 ## Purpose
 
@@ -28,7 +30,7 @@ Save your life with large scale frontend
 #### Hooking
 
 * Side Effects
-  * Reduce human error imediatly when you work with git every time. In other words, you don't need to care of it at all
+  * Reduce human error immediatly when you work with git every time. In other words, you don't need to care of it at all
 * NPM
   * [npm-scripts](https://docs.npmjs.com/misc/scripts)
 * Git
@@ -38,22 +40,53 @@ Save your life with large scale frontend
 
 #### CI
 
+* Google Cloud Build
+* Travis
+* Circle
+
 #### CD
+
+* Cloud
+  * AWS
+  * Now.sh
+  * Digital Ocean
+  * Heroku
+* Static Web Publishing
+  * Netlify
+  * Surge
+  * Github gh-pages
 
 #### Versioning
 
+* Side Effects
+* Tools
+  * NPM
+  * Yarn
+  * np
+
 #### Documentation
 
-* https://github.com/jfmengels/all-contributors-cli
+* Manaual
+  * Gitbook
+  * Flybook
+* README.md
+  * https://github.com/jfmengels/all-contributors-cli
+* CHANGELOG.md
+* LICENSE.md
 
 ### Application Architecture
 
 * 코드베이스
-  * 모노리포
-  * 분산
+  * Monorepo
+    * What?
+    * Why?
+    * When?
+    * How?
+  * 분산/MSA
   * 공통 모듈라이징
 * 환경
   * 모바일
+    * WebView
   * 데스크탑
   * 그외
   * 디버깅
@@ -67,16 +100,23 @@ Save your life with large scale frontend
 
 ### State Management
 
+* Redux/Vuex
+
 ### Code Quality
 
-* 코드 퀄리티
-  * Typing
-  * Lint
+* Typing
+* Lint
 
 ### Testing
 
 * Unit(스냅샷)
 * E2E
+
+### Debugging
+
+* Logging in Production
+  * Node.js
+  * Web Application
 
 ### Performance
 
