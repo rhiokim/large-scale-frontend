@@ -1,6 +1,12 @@
 <img src="https://github.com/rhiokim/large-scale-frontend/raw/master/media/rhino-wide.png" width="50%" />
 
+Development
+ \_ Manage source code and local dev automation
+ \_ Focus on code without additional work
+
 ## Purpose
+
+Save your life with large scale frontend
 
 ## Guide
 
