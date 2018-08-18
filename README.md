@@ -6,15 +6,39 @@
 
 ### Workflow
 
-* Git
-  * Commit Message Convention
+#### Git
+
+* Commit Message Convention
+  * Side Effects
+    * Easy to make release notes & Change logs
+  * Good Convention Guidelines
     * 😀 [Angular Team Guidelines](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit)
     > This guide is quite awesome when you wirte any kind of open source libraries
     * 😊 [Erlang - Writing good commit message](https://github.com/erlang/otp/wiki/Writing-good-commit-messages)
     > And this is also good option
-* CI
-* CD
-* Versioning
+  * Tool to save your life
+    * [Commitizen](https://github.com/commitizen/cz-cli)
+
+#### Hooking
+
+* Side Effects
+  * Reduce human error imediatly when you work with git every time. In other words, you don't need to care of it at all
+* NPM
+  * [npm-scripts](https://docs.npmjs.com/misc/scripts)
+* Git
+  * [description] https://github.com/typicode/husky
+  * [description] https://github.com/marionebl/commitlint
+  * [description] https://github.com/okonet/lint-staged
+
+#### CI
+
+#### CD
+
+#### Versioning
+
+#### Documentation
+
+* https://github.com/jfmengels/all-contributors-cli
 
 ### Application Architecture
 
