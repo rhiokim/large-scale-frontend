@@ -125,6 +125,10 @@ Save your life with large scale frontend
 * Bundling
 * Minify
 * NginX Configuration
+  * This can help your server improve the SPA(Single Page Application) and web site's performance and security, while also ensuring that resources are served with the correct content-type and are accessible, if needed, even cross-domain.
+  * [Configuration your web server to prevent caching](https://github.com/vuejs-templates/pwa/blob/development/docs/prevent_caching.md)
+  * [Caching best practices & max-age gotchas](https://jakearchibald.com/2016/caching-best-practices/)
+  * [HTML5 Boilerplate Nginx Configuration](https://github.com/h5bp/server-configs-nginx)
 * Tools
   * Lighthouse - https://developers.google.com/web/tools/lighthouse/?hl=ko
   > Lighthouse 는 웹 앱의 품질 개선을 위한 오픈소스 자동화 도구
