@@ -1,5 +1,9 @@
 # Parallel Computing in Javascript
 
+* https://hacks.mozilla.org/2016/05/a-taste-of-javascripts-new-parallel-primitives/
+
+* https://itnext.io/achieving-parallelism-in-javascript-using-web-workers-8f921f2d26db
+
 ## Web Worker
 
 https://developer.mozilla.org/ko/docs/Web/API/Web_Workers_API
