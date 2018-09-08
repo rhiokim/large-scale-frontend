@@ -101,7 +101,29 @@ Save your life with large scale frontend
 
 ### State Management
 
-* Redux/Vuex
+과거 MVC 패턴이 웹 애플리케이션을 구현의 대부분이였던 시절에 애플리케이션의 상태관리는 각 Model 과 Controller 에 의해서 관리되어졌다. 물론 그때 당시의 상태관리는 그렇게 복잡하지 않았다. 아니 그렇게 복잡한 상태를 관리할 애플리케이션을 구현하지 않았다.
+
+하지만 모던 웹 브라우저의 기술을 급속도로 발전하고 웹 애플리케이션의 구조도 급속도로 변화하였다.
+
+웹 애플리케이션의 구현 패턴도 MVC 에서 2013년을 기점으로 마크업, 스타일시트를 단일 파일에 담은 웹 컴포넌트의 형태로 변화하면서 상태관리의 복잡함을 단방향 데이터 흐름(Uni-direction Data Flow)으로 그 패러다임을 발전시켜오고 있다.
+
+더불어 다양한 언어와 환경의 경험들이 웹 상태머신의 패러다임에 영향을 주고 있다.
+
+* Flux
+* Redux
+* Vuex
+  * Action
+  * Getter
+  * Mutation
+  * Module
+* Saga
+  * [What is saga?](https://engineering.universe.com/what-is-redux-saga-c1252fc2f4d1)
+* GraphQL
+* Observable
+  * Rx
+  * MobX
+    * TFRP(transparently applying functional reactive programming)
+* Computed
 
 ### Code Quality
 
