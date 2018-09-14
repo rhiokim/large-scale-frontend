@@ -110,7 +110,10 @@ Save your life with large scale frontend
 더불어 다양한 언어와 환경의 경험들이 웹 상태머신의 패러다임에 영향을 주고 있다.
 
 * Flux
+  * Uni-Direction Data Flow
 * Redux
+* React
+  * [Context Provider](https://reactjs.org/docs/context.html)
 * Vuex
   * Action
   * Getter
@@ -160,6 +163,8 @@ Save your life with large scale frontend
 * PWA
 * SEO
 * Bundling
+  * Code Splitting
+  * Tree Shaking
 * Minify
 * NginX Configuration
   * This can help your server improve the SPA(Single Page Application) and web site's performance and security, while also ensuring that resources are served with the correct content-type and are accessible, if needed, even cross-domain.
