@@ -41,8 +41,10 @@ Save your life with large scale frontend
 #### CI
 
 * Google Cloud Build
+* Gitlab Pipeline
+* [AWS CodeBuild](https://aws.amazon.com/ko/codebuild/)
 * Travis
-* Circle
+* Circle CI
 
 #### CD
 
