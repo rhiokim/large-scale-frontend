@@ -20,31 +20,43 @@ NginX Gzip Compression Configuration with Webpack Gzip Compression : 웹 팩에�
 
 React.js, Vue.js 기반의 SPA 는 기본적으로 서비스 워커에 의해 캐시 컨트롤이 되고 있으나 iOS 는 11.3 부터 Service Worker 를 지원하기 때문에 그 이하 버젼에서는 NginX 에서 캐시 컨트롤이 되어야 한다.
 
-![기본 Vue.js SPA](./performance/1.png)
+## Step 1
 
 기본 Vue.js SPA
 
-![기본 Vue.js SPA](./performance/3.png)
+![기본 Vue.js SPA](./performance/1.png)
+
+## Step 2
 
 * 이미지 클라우드너리 적용
 * 번들링 의존성 최소화
 * 이미지 레이지로딩
 
-![기본 Vue.js SPA](./performance/5.png)
+![기본 Vue.js SPA](./performance/3.png)
+
+## Step 3
 
 * webpack gzip compression
 * rendering block 요소 제거
 
-![기본 Vue.js SPA](./performance/6.png)
+![기본 Vue.js SPA](./performance/5.png)
+
+## Step 4
 
 * Gzip 적용
 * Nginx 캐시 컨트롤(정적 assets 캐시)
 * Accessibility 향상
 
-![기본 Vue.js SPA](./performance/7.png)
+![기본 Vue.js SPA](./performance/6.png)
+
+## Step 5
 
 * Gzip 미적용 CSS
 
-![기본 Vue.js SPA](./performance/8.png)
+![기본 Vue.js SPA](./performance/7.png)
+
+## Step 6
 
 * JS, CSS 모두 NginX 캐시 적용
+
+![기본 Vue.js SPA](./performance/8.png)
