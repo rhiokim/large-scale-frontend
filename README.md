@@ -8,7 +8,7 @@ Development
 
 ## Purpose
 
-Save your life with large scale frontend
+Save your life with large scale frontend architecture
 
 ## Guide
 
@@ -38,6 +38,11 @@ Save your life with large scale frontend
   * [description] https://github.com/marionebl/commitlint
   * [description] https://github.com/okonet/lint-staged
 
+#### Code Quality
+
+* Typing
+* Lint
+
 #### CI
 
 * Google Cloud Build
@@ -65,6 +70,9 @@ Save your life with large scale frontend
   * NPM
   * Yarn
   * np
+  * semver
+    * https://semver.org/
+    * https://docs.npmjs.com/misc/semver
 
 #### Documentation
 
@@ -87,9 +95,13 @@ Save your life with large scale frontend
     * How?
   * 분산/MSA
   * 공통 모듈라이징
+* Universal Rendering
+  * Next.js
+  * Nuxt.js
+  * Others?
 * 환경
   * 모바일
-    * WebView
+    * Native Interfaces with Web Application
   * 데스크탑
   * 그외
   * 디버깅
@@ -116,11 +128,13 @@ Save your life with large scale frontend
 * Redux
 * React
   * [Context Provider](https://reactjs.org/docs/context.html)
+  * [Hooks](https://reactjs.org/docs/hooks-intro.html)
 * Vuex
   * Action
   * Getter
   * Mutation
   * Module
+  * Computed
 * Saga
   * [What is saga?](https://engineering.universe.com/what-is-redux-saga-c1252fc2f4d1)
 * GraphQL
@@ -128,12 +142,6 @@ Save your life with large scale frontend
   * Rx
   * MobX
     * TFRP(transparently applying functional reactive programming)
-* Computed
-
-### Code Quality
-
-* Typing
-* Lint
 
 ### Testing
 
@@ -153,15 +161,21 @@ Save your life with large scale frontend
   * [Cypress.io](https://www.cypress.io/)
   * [Jest with Puppeteer](https://github.com/smooth-code/jest-puppeteer)
 
-### Debugging
+### Logging & Auditing
 
-* Logging in Production
+* for Debug
+* for Tracing
   * Node.js
+    * Morgan
   * Web Application
     * Sentry
+* Security
+  * npm audit - https://docs.npmjs.com/cli/audit
+  * nsp - https://www.npmjs.com/package/nsp
 
 ### Performance
 
+* This! Good start point - https://www.smashingmagazine.com/2019/01/front-end-performance-checklist-2019-pdf-pages/
 * PWA
 * SEO
 * Bundling
@@ -186,9 +200,28 @@ Save your life with large scale frontend
   * component
   * pattern
   * template
-* Component Design
+
+#### Design System
+
+* https://designsystemsrepo.com/design-systems/
+
+#### Component Design
+
+* Layout
+  * Grid
+* Motion & Animation
+* Colors
+  * Pattern
+  * HEX
+  * RGBA
+  * HSLA
+* Sizing
 
 #### CSS
+
+* Structured CSS
+* Preprocessor
+* CSS in JS
 
 ### DDD
 
@@ -204,6 +237,9 @@ Save your life with large scale frontend
     * Time
     * Date
     * Zip Code
+* Mobile Native Interfaces
+
+## Diagram
 
 ## Contribute
 
