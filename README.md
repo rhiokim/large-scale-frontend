@@ -43,7 +43,7 @@ Save your life with large scale frontend architecture
 * Typing
 * Lint
 
-#### CI
+#### CI(Continuous Integration)
 
 * Google Cloud Build
 * Gitlab Pipeline
@@ -51,7 +51,7 @@ Save your life with large scale frontend architecture
 * Travis
 * Circle CI
 
-#### CD
+#### CD(Continuous Delivery)
 
 * Cloud
   * AWS
@@ -105,6 +105,38 @@ Save your life with large scale frontend architecture
   * 데스크탑
   * 그외
   * 디버깅
+
+#### WACQA(Web Application Consideration Tree)
+
+> WACQA is just LGTM
+
+* Client-side
+  * Framework - How much time we can spend for that?
+    * How to manages dependencies?
+    * How to migrate version issue?
+    * Learning costs
+    * Pros & Cons for our goals
+    * Tooling costs
+  * Responseive
+    * Browser
+    * Mobile
+    * TV
+  * PWA
+    * Service Worker
+    * Web Push
+  * SEO
+    * Will we happy with SEO?
+  * Universal Rendering - SSR
+    * Really need this to archive our goal?
+  * Static Typing
+    * Can you answer me why we are need this thing on our project?
+  * i18n - Internationalization
+  * a11y - Web Accessibility
+  * Testing - unit(snapshot), e2e and others?
+  * Browers Capability
+  * CSS - Pre-processor (SASS/Less/Stylus) and JSS
+* Backend-side
+  * coming up
 
 ### Modern Framwork
 
