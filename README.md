@@ -238,20 +238,28 @@ Base -> Development -> Build -> Test -> Maintain -> Refactor
 * Preprocessor
 * CSS in JS
 
+
+## Strategies & Methodologies
+
+### Modularization
+
+In every developer's life. We are considerating every day how to write high reusable code.
+
+We **have to** understand about Separation of concerns (aka SoC) - https://en.wikipedia.org/wiki/Separation_of_concerns
+
+* Common Regular Expression
+  * Email
+  * Name
+  * Phone
+  * Number Format
+  * Time
+  * Date
+  * Zip Code
+
 ### DDD
 
 ### Etc
 
-* SoC
-* Modularization
-  * Common Regular Expression
-    * Email
-    * Name
-    * Phone
-    * Number Format
-    * Time
-    * Date
-    * Zip Code
 * Mobile Native Interfaces
 
 ## Diagram
