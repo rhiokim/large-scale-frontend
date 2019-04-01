@@ -12,6 +12,17 @@ Save your life with large scale frontend architecture
 
 ## Guide
 
+Base -> Development -> Build -> Test -> Maintain -> Refactor
+
+-> Workflow
+  -> SCM
+    -> Co-Working
+      -> Code Quality
+        -> Continuous Integration
+          -> Continuous Delivery
+            -> Versioning
+              -> Documentation
+
 ### Workflow
 
 #### Git
