@@ -154,6 +154,10 @@ Base -> Development -> Build -> Test -> Maintain -> Refactor
   * MobX
     * TFRP(transparently applying functional reactive programming)
 
+---
+
+* We **have to** understand about general state machine - https://en.wikipedia.org/wiki/Finite-state_machine
+
 ### Testing
 
 [Wikipedia](https://en.wikipedia.org/wiki/Software_testing##Testing_levels)
