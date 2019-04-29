@@ -176,6 +176,11 @@ Base -> Development -> Build -> Test -> Maintain -> Refactor
   * [Cypress.io](https://www.cypress.io/)
   * [Jest with Puppeteer](https://github.com/smooth-code/jest-puppeteer)
 
+### User Analysis
+
+* 사용자 분석 전략
+* 퍼널(funnel) 디자인 방법
+ 
 ### Logging & Auditing
 
 * for Debug
@@ -184,6 +189,7 @@ Base -> Development -> Build -> Test -> Maintain -> Refactor
     * Morgan
   * Web Application
     * Sentry
+  * Mobile
 * Security
   * npm audit - https://docs.npmjs.com/cli/audit
   * nsp - https://www.npmjs.com/package/nsp
