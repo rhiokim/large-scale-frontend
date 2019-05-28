@@ -110,6 +110,9 @@ Base -> Development -> Build -> Test -> Maintain -> Refactor
   * Next.js
   * Nuxt.js
   * Others?
+* Serverless
+  * zeit/now
+  * google
 * 환경
   * 모바일
     * Native Interfaces with Web Application
@@ -123,6 +126,14 @@ Base -> Development -> Build -> Test -> Maintain -> Refactor
 * Router
 * React.js
 * Vue.js
+
+### Style
+
+* CSS
+  * css
+  * inline style
+  * CSSModules
+  * styled-component
 
 ### State Management
 
@@ -212,6 +223,13 @@ Base -> Development -> Build -> Test -> Maintain -> Refactor
   * Lighthouse - https://developers.google.com/web/tools/lighthouse/?hl=ko
   > Lighthouse 는 웹 앱의 품질 개선을 위한 오픈소스 자동화 도구
 
+
+### Optimization
+
+* Assets
+  * Image
+  * CSS
+
 ### The Design of Principles
 
 * Design Ops
@@ -221,6 +239,7 @@ Base -> Development -> Build -> Test -> Maintain -> Refactor
   * component
   * pattern
   * template
+
 
 #### Design System
 
