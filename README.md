@@ -12,6 +12,17 @@ Save your life with large scale frontend architecture
 
 ## Guide
 
+Base -> Development -> Build -> Test -> Maintain -> Refactor
+
+-> Workflow
+  -> SCM
+    -> Co-Working
+      -> Code Quality
+        -> Continuous Integration
+          -> Continuous Delivery
+            -> Versioning
+              -> Documentation
+
 ### Workflow
 
 #### Git
@@ -99,6 +110,9 @@ Save your life with large scale frontend architecture
   * Next.js
   * Nuxt.js
   * Others?
+* Serverless
+  * zeit/now
+  * google
 * 환경
   * 모바일
     * Native Interfaces with Web Application
@@ -145,6 +159,14 @@ Save your life with large scale frontend architecture
 * React.js
 * Vue.js
 
+### Style
+
+* CSS
+  * css
+  * inline style
+  * CSSModules
+  * styled-component
+
 ### State Management
 
 과거 MVC 패턴이 웹 애플리케이션을 구현의 대부분이였던 시절에 애플리케이션의 상태관리는 각 Model 과 Controller 에 의해서 관리되어졌다. 물론 그때 당시의 상태관리는 그렇게 복잡하지 않았다. 아니 그렇게 복잡한 상태를 관리할 애플리케이션을 구현하지 않았다.
@@ -175,6 +197,10 @@ Save your life with large scale frontend architecture
   * MobX
     * TFRP(transparently applying functional reactive programming)
 
+---
+
+* We **have to** understand about general state machine - https://en.wikipedia.org/wiki/Finite-state_machine
+
 ### Testing
 
 [Wikipedia](https://en.wikipedia.org/wiki/Software_testing##Testing_levels)
@@ -193,6 +219,11 @@ Save your life with large scale frontend architecture
   * [Cypress.io](https://www.cypress.io/)
   * [Jest with Puppeteer](https://github.com/smooth-code/jest-puppeteer)
 
+### User Analysis
+
+* 사용자 분석 전략
+* 퍼널(funnel) 디자인 방법
+ 
 ### Logging & Auditing
 
 * for Debug
@@ -201,6 +232,7 @@ Save your life with large scale frontend architecture
     * Morgan
   * Web Application
     * Sentry
+  * Mobile
 * Security
   * npm audit - https://docs.npmjs.com/cli/audit
   * nsp - https://www.npmjs.com/package/nsp
@@ -223,6 +255,13 @@ Save your life with large scale frontend architecture
   * Lighthouse - https://developers.google.com/web/tools/lighthouse/?hl=ko
   > Lighthouse 는 웹 앱의 품질 개선을 위한 오픈소스 자동화 도구
 
+
+### Optimization
+
+* Assets
+  * Image
+  * CSS
+
 ### The Design of Principles
 
 * Design Ops
@@ -232,6 +271,7 @@ Save your life with large scale frontend architecture
   * component
   * pattern
   * template
+
 
 #### Design System
 
@@ -255,20 +295,28 @@ Save your life with large scale frontend architecture
 * Preprocessor
 * CSS in JS
 
+
+## Strategies & Methodologies
+
+### Modularization
+
+In every developer's life. We are considerating every day how to write high reusable code.
+
+We **have to** understand about Separation of concerns (aka SoC) - https://en.wikipedia.org/wiki/Separation_of_concerns
+
+* Common Regular Expression
+  * Email
+  * Name
+  * Phone
+  * Number Format
+  * Time
+  * Date
+  * Zip Code
+
 ### DDD
 
 ### Etc
 
-* SoC
-* Modularization
-  * Common Regular Expression
-    * Email
-    * Name
-    * Phone
-    * Number Format
-    * Time
-    * Date
-    * Zip Code
 * Mobile Native Interfaces
 
 ## Diagram
