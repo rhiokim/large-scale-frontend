@@ -318,6 +318,7 @@ We **have to** understand about Separation of concerns (aka SoC) - https://en.wi
 ### Etc
 
 * Mobile Native Interfaces
+* .well-known - https://www.mnot.net/blog/2010/04/07/well-known
 
 ## Diagram
 
