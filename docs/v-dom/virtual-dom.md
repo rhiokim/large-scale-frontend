@@ -52,6 +52,10 @@ A JavaScript DOM model supporting element creation, diff computation and patch o
 
 * https://calendar.perfplanet.com/2013/diff/
 
+## How Virtual-DOM and diffing works in React
+
+* https://medium.com/@gethylgeorge/how-virtual-dom-and-diffing-works-in-react-6fc805f9f84e
+
 ## ETC
 
 늘 마크다운 엔진도 Virtual DOM 이 다뤘던 알고리즘에 대한 니즈가 강하게 요구되고 성능에서도 기대할 수
