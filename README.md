@@ -231,17 +231,29 @@ Base -> Development -> Build -> Test -> Maintain -> Refactor
   * Node.js
     * Morgan
   * Web Application
-    * Sentry
+    * Sentry - [sentry.io](https://sentry.io)
   * Mobile
 
 ### Security
 
-Google Web Fundmental - https://developers.google.com/web/fundamentals/security?hl=ko
-* Content Security Policy - https://developers.google.com/web/fundamentals/security/csp?hl=ko
+대부분의 보안은 프론트엔드 즉 브라우저 영역에서 발생하는 경우는 그다지 중요도고 높지 않게 느낀다.
+과거도 현재도, 이 섹션에서는 보안의 중요성, 필요성에 대한 정보보다 보안 취약점이 발생할 수 있는
+다양한 위험 요소를 인식하고 예방할 수 있는 방법들에 대해 크게 2가지 영역 Node.js, Browser 다루는 것을 목적으로 한다.
 
-Node.js
+Node.js 의 경우 서버 프로그래밍을 넘어서 웹 애플리케이션에 여러 영향을 주고 있다.
+더불어 시스템을 제약없이 엑세스 할 수 있기 때문에 단순히 웹 보안을 넘어서 시스템 보안의 취약점까지
+발생할 수 있다.
+
+#### Node.js
+
+* 10 npm Security Best practices - https://snyk.io/blog/ten-npm-security-best-practices/
 * npm audit - https://docs.npmjs.com/cli/audit
 * nsp - https://www.npmjs.com/package/nsp
+
+#### Browser
+
+Google Web Fundmental - https://developers.google.com/web/fundamentals/security?hl=ko
+* Content Security Policy - https://developers.google.com/web/fundamentals/security/csp?hl=ko
 
 ### Performance
 
